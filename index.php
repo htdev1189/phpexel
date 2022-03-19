@@ -8,7 +8,7 @@
 </form>
 
 <form action="read.php" method="post" enctype="multipart/form-data">
-    <input type="file" name="file">
+    <input type="file" name="file" accept=".csv, application/vnd.openxmlformats-officedocument.spreadsheetml.sheet, application/vnd.ms-excel">
     <button type="submit" name="btn_read-exel">Read file</button>
 </form>
 
